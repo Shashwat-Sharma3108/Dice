@@ -1,0 +1,61 @@
+/***************************TAG SELECTORS**********************/
+
+body{
+    text-align: center;
+    background-color:#393E46;
+}
+
+h1{
+margin: 30px;
+font-family: 'Lobster', cursive;
+text-shadow: 5px 0 #232931;
+font-size: 8rem;
+color: #4ECCA3;
+}
+p{
+    font-size: 2rem;
+    font-family: 'Indie Flower', cursive;
+    color:#4ECCA3
+
+}
+
+footer{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+img{
+    margin-right: 35px;
+}
+
+footer{
+    margin-bottom: 0%;
+}
+/***************************CLASS SELECTORS**********************/
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.dice{
+    display: inline-block;
+}
+
+
+/***************************ID SELECTORS**********************/
+
+
+
+/***************************PSEUDOCLASS SELECTORS**********************/
+
+
+
+/***************************MEDIAQUERIES SELECTORS**********************/
+
+
+
+/***************************COMBINED SELECTORS**********************/
