@@ -15,7 +15,7 @@ color: #4ECCA3;
 p{
     font-size: 2rem;
     font-family: 'Indie Flower', cursive;
-    color:#4ECCA3
+    color:#4ECCA3;
 
 }
 
@@ -45,13 +45,37 @@ footer{
     display: inline-block;
 }
 
+.myButton {
+	box-shadow: 0px 6px 9px #ffffff;
+	background:linear-gradient(to bottom, #4ECCA3 5%, black 100%);
+	background-color: #4ECCA3;
+	border-radius:17px;
+	border:2px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color: #4ECCA3;
+	font-family:'Indie Flower', cursive;;
+	font-size:2rem;
+    font-weight: 900;
+	padding:12px 34px;
+	margin: 5% auto;
+}
 
+        
 /***************************ID SELECTORS**********************/
 
 
 
 /***************************PSEUDOCLASS SELECTORS**********************/
 
+.myButton:hover {
+	background:linear-gradient(to top, #dfdfdf 1%, #ededed 100%);
+	background-color:#dfdfdf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
 
 
 /***************************MEDIAQUERIES SELECTORS**********************/
