@@ -1,5 +1,10 @@
-var randomNumber1=Math.floor(Math.random()*6)+1;
-var randomNumber2=Math.floor(Math.random()*6)+1;
+
+document.querySelector("button").addEventListener("click",Playgame);
+
+function Playgame() {
+    
+var randomNumber1=Math.round(Math.random()*6);
+var randomNumber2=Math.round(Math.random()*6);
 
 if(randomNumber1==1)
     document.getElementsByClassName("img1")[0].setAttribute("src","images/dice1.png");
@@ -33,3 +38,5 @@ else if(randomNumber2>randomNumber1)
     document.querySelector("h1").innerHTML="Player 2 wins 🚩";
 else
     document.querySelector("h1").innerHTML="Draw!";
+}
+
