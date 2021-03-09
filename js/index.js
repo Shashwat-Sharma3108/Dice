@@ -3,8 +3,8 @@ document.querySelector("button").addEventListener("click",Playgame);
 
 function Playgame() {
     
-var randomNumber1=Math.round(Math.random()*6);
-var randomNumber2=Math.round(Math.random()*6);
+var randomNumber1=Math.floor(Math.random()*6)+1;
+var randomNumber2=Math.floor(Math.random()*6)+1;
 
 if(randomNumber1==1)
     document.getElementsByClassName("img1")[0].setAttribute("src","images/dice1.png");
